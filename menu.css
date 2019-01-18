@@ -1,0 +1,17 @@
+#down{
+	padding : 5px;
+	text-align: center;
+	background-color: blue;
+	border: solid 1px yellow;
+}
+
+#flipdown{
+	padding : 5px;
+	text-align: center;
+	background-color: green;
+	border: solid 1px yellow;
+}
+#flipdown{
+	padding: 50px;
+	display: none;
+}

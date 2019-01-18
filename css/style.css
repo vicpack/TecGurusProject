@@ -1,0 +1,51 @@
+.titulo{
+    text-align: center;
+    margin-top: 5px;
+}
+
+body{
+	/*background-image: url("../img/fe.jpg")!important;
+	opacity:1.0;
+	filter: alpha(opacity=100);*/
+	background-color: #EBF2F5;
+}
+
+/*.opacity{
+	background-color:rgb(255,0,0);
+	opacity:0.6; /* Opacidad 60% 
+	width:200px;
+	height:70px;
+ } */
+#contenedor{
+	width: 100%;
+	margin: 5% auto;
+}
+
+.columnas,.vision,.valores{
+	width: 31%;
+	padding: 5px;
+	float: left;
+	font-size: 110%;
+	text-align: justify;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+
+
+#mision,vision,.valores{
+    border: 2px solid #b75922;
+    margin: 10px;
+}
+
+#registro{
+	border: 2px solid #b75922;
+    margin: 10px;
+}
+
+.icons{
+	align-self: auto;
+	margin: 5px;
+}

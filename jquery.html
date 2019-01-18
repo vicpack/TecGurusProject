@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery</title>
+	<script src="jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				//$(this).hide();
+				$(this).toggle();
+			});
+		});
+	</script>
+</head>
+<body>
+	<button>Hacer toggle</button>
+	<p id="uno">Dame click para desaparecer</p>
+	<p id="dos">Dame click para desaparecer x2</p>
+	<p id="tres">no lo haga ,compa</p>
+</body>
+</html>

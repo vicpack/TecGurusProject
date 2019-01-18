@@ -1,0 +1,29 @@
+<!DOCTYPE  html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <section id="tests">
+        <h1>JSON</h1><!--Titulo en el body-->
+        <div id="content" ><!--Sección en donde se reflejará el resultado-->
+        </div>
+    </section>
+    <script type="text/javascript"><!--inicio de script-->
+<!--Declaración del arreglo para simular el formato de un JSON-->
+        var objetos = {"Personas":[
+            {"nombre":"Jorge","edad":23},
+            {"nombre":"Carlos","edad":17}
+        ]};  
+<!--Obtener el contenido del section "content", accesar hasta el nombre del arreglo objetos  en su apartado de personas-->
+    document.getElementById('content').innerHTML = objetos.Personas[1].nombre ;
+    /*Declarar un objeto JSON con una funcion en un atributo
+     notese el uso de "this" que hace referencia a el objeto en sí, es decir a persona*/
+    var persona = {"name":"Jorge","edad":23,
+                  "avisar":function(){alert("Hola soy "+this.name);}
+                 };
+<!--Llamada a la funcion-->
+    persona.avisar();
+    </script>
+</body>  
+</html>

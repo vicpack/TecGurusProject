@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu desplegable</title>
+	<link rel="stylesheet" href="menu.css" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#down").click(function(){
+					$("#flipdown").slideDown("slow");
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="down">Dar click para expandir hacia abajo</div>
+	<div id="flipdown">Hola Mundo</div>
+</body>
+</html>
